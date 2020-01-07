@@ -5,9 +5,9 @@ app_purpose = "strg-vault"
 
 tags = {
    "env"              = "dev"
-   "contact_dl"       = "cdo_cloud_deliv@list.att.com"
-   "motsid"           = "29287"
+   "contact_dl"       = "phaniv16@gmail.com"
+   "motsid"           = "11111"
    "autofix"          = "no"
-   "created_by"       = "pv801h + phanindra veeramachaneni"
+   "created_by"       = "phanindra veeramachaneni"
    }
 
