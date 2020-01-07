@@ -1,15 +1,15 @@
 pipeline {
   agent {
-    label 'AZURE-ACC-PROD-29287-AZCLOUDSERVICES'
+    label 'azure'
   }
   environment {
     tf_version = '0.12.8'
-    tf_path = "$WORKSPACE/terraform-v12/East-us/$resource_module"  
+    tf_path = "$WORKSPACE/terraform_jenkins"  
     account_moniker="${tf_vars_file}"
     git_creds = credentials("$git_cred")
 	ARM_USE_MSI=true
 	ARM_SUBSCRIPTION_ID= "${subscription_ID}"   
-	ARM_TENANT_ID= 'e741d71c-c6b6-47b0-803c-0f3b32b07556'              
+	ARM_TENANT_ID= 'c932c2b6-d7c0-45dd-bc88-b1d79ac4f500'              
   }
 
   stages {
